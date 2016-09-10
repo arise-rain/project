@@ -2,194 +2,123 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
-
     <title></title>
+    <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!--<script src="javascript/navbar.js"></script>-->
     <style type="text/css">
-        .page_a{
+        /*.botnavbar .nav-pills li a{color: #00bfa5;text-decoration: none;font-family:simhei}*/
+        /*.topnavbar .nav-pills li a{color: #00bfa5;text-decoration: none;font-family:simhei;height:100%}*/
+        /*.xmgcNavBar .nav-pills li.active a{color: #FFF;background-color: #00bfa5;height:100%}*/
+        /*.xmgcNavBar .nav-pills li .active a:hover{color: #FFF;background-color: #00bfa5;height:100%}*/
+        /*.page_a{*/
 
             /*border: 1px solid #000000;*/
-            padding-top: 0px;
-            margin-top: -30px;
-            font-size: 25px;
-        }
-        .page_h{
-            display: inline-block;
+            /*padding-top: 0px;*/
+            /*margin-top: -30px;*/
+            /*font-size: 25px;*/
+        /*}*/
+        /*.page_h{*/
+            /*display: inline-block;*/
             /*border: 1px solid #000000;*/
             /*text-align: center;*/
-            margin-left:40%;
+            /*margin-left:40%;*/
             /*margin-top: -30px;*/
             /*float: left;*/
-        }
-        .page_img{
+        /*}*/
+        /*.page_img{*/
             /*float: left;*/
             /*border: 1px solid #000000;*/
             /*padding-top: 0px;*/
-            margin-left: 41%;
+            /*margin-left: 41%;*/
             /*margin-top: -30px;*/
             /*font-size: 20px;*/
-        }
-        .clear{
-            clear: both;
-        }
-        .row{
-            /*margin-top:50px;*/
-        }
-        .page-header{
-            height: 0px;
-            background: #ffff00;
-        }
-        .col-md-12{
-            margin-top:-20px;
-            height: 350px;
-            border: none;
-        }
-        .well{
-            -webkit-border-radius: 0px;
-            -moz-border-radius: 0px;
-            border-radius: 0px;
-            /*margin-top: -20px;*/
-        }
-        .container{
-            border: 1px solid #ffff00;
-        }
-        .container_1{
-            border: 1px solid #ffff00;
-        }
-        .head_portrait{
-            width:150px;
-            height: 150px;
-            -webkit-border-radius: 75px;
-            -moz-border-radius:75px;
-            border-radius: 75px;
-        }
-        .thumbnail img{
-            margin-top: 20px;
-            width: 300px;
-            height: 400px;
-        }
-        .span{
-            top: 10px;
-            color: #ffca06;
-            font-size: 50px;
-        }
-        .sName{
-            font-size: 30px;
-        }
-        /*.span_a{*/
-        /*width: 2px;*/
-        /*height: 2px;*/
         /*}*/
-        .want{
-            width: 30px;
-            height: 30px;
-            margin:0px auto;
+        /*.clear{*/
+            /*clear: both;*/
+        /*}*/
+        /*.row{*/
+            /*margin-top:50px;*/
+        /*}*/
+        /*.page-header{*/
+            /*height: 0px;*/
+            /*background: #ffff00;*/
+        /*}*/
+        /*.col-md-12{*/
+            /*margin-top:-20px;*/
+            /*height: 350px;*/
+            /*border: none;*/
+        /*}*/
+        /*.well{*/
+            /*-webkit-border-radius: 0px;*/
+            /*-moz-border-radius: 0px;*/
+            /*border-radius: 0px;*/
+            /*margin-top: -20px;*/
+        /*}*/
 
-        }
-        .activity_C_header{
-            width: 100%;
-            height: 50px;
-            font-size: 25px;
-            margin:auto;
-            background-color: #000000;
-            color: #ffffff;
-        }
-        .activity_C_header span{
-            float: left;
-            padding: 15px;
-        }
-        .activity_C_header h3{
-            float: left;
-            margin-left: 35%;
-            margin-top: 12px;
-        }
-        .activity_C_header button{
-            margin-top: 10px;
-            margin-right: 20px;
-        }
-        .mycare_inform{
-            margin-left: 10px;
-            margin-top:10px;
-            width: 100%;
-        }
-        .mycare_inform dl{
-            float: left;
-            width: 100%;
-        }
-        .mycare_inform dl dt{
-            float: left;
-            /*width:20%;*/
-        }
-        .mycare_inform button{
-            float: right;
-            margin-top: -90px;
-            margin-right: 20px;
-        }
-        .mycare_inform dl dd{
-            float: left;
-            margin-left: 5%;
-        }
-        .mycare_inform span{
-            font-weight: bold;
-            font-size:20px;
-        }
-
+        .head_portrait{  width:150px;  height: 150px;  }
+        .thumbnail img{  margin-top: 70px;  width: 80%;  }
+        .span{  top: 10px;  color: #ffca06;  }
+        .span_a{  width: 2px;  height: 2px;  }
+        .want{  width: 30px;  height: 30px;  margin:0px auto;  }
+        .activity_C_header{  width: 100%;  height: 50px;  font-size: 25px;  margin:auto;  background-color: #000000;  color: #ffffff;  }
+        .activity_C_header span{  float: left;  padding: 15px;  }
+        .activity_C_header h3{  float: left;  margin-left: 35%;  margin-top: 12px;  }
+        .activity_C_header button{  margin-top: 10px;  margin-right: 20px;  }
+        .mycare_inform{  margin-left: 10px;  margin-top:10px;  width: 100%;  }
+        .mycare_inform dl{  float: left;  width: 100%;  }
+        .mycare_inform dl dt{  float: left;  width:20%;  }
+        .mycare_inform button{  float: right;  margin-top: -90px;  margin-right: 20px;  }
+        .mycare_inform dl dd{  float: left;  margin-left: 5%;  }
+        .mycare_inform span{  font-weight: bold;  }
 
     </style>
 </head>
 <body>
-<!--<div class="page-header navbar-fixed-top">-->
-<!--<a href="#" class="page_a"><</a>-->
-<!--<h2 class="page_h">娲诲姩璇︽儏</h2>-->
-<!--<a href="#" class="page_img"><img src="../img/鍒嗕韩.jpg" alt=""/></a>-->
-<!--<div class="clear"></div>-->
-<!--</div>-->
-<div class="activity_C_header">
-    <a href="#"><span class="glyphicon glyphicon-chevron-left"></span></a>
-    <h3>活动详情</h3>
-    <a href="http://localhost:63342/clubProject/html/personPage.html">
-        <button type="button" class="btn btn-default btn-success pull-right">
-            分享
-            </button>
-    </a>
+<!--顶部导航-->
+<!--visible-md visible-lg隐藏-->
+<div id="topnavbar" class="navbar navbar-default nav nav-tabs navbar-fixed-top  xmgcNavBar   topnavbar" style="height:50px;min-height:50px;z-index:90;padding:0;box-shadow:0 0 2rem #AAA;margin-bottom:0";>
+    <img src="http://www.xmgc360.com//_imgs/xmgcm.png" style="width: 7rem;margin-top:-1px;">
+    <span style="font-size:2rem;color: #00bfa5;margin-top: 10px;margin-left:35%">活动详情</span>
+    <form class="navbar-form navbar-right" role="search">
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
 </div>
 
 
 
 
-<!--涓棿鍥剧墖-->
+<!--body内容-->
+<div class="container" style="width: 95%;border: none">
 <div class="row">
     <div>
-        <div class="thumbnail">
-            <img src="../img/07.jpg" alt="...">
-            <div class="caption">
-                <h3>华中师范大学学生社团联合会之新生礼包派送</h3>
-                    <p style="font-size: 20px">活动时间;2016-07-12 09:00 至2016-09-11 00</p>
-                    <p style="font-size: 20px">活动</p>
-                    <p style="font-size: 20px">活动地点：华中师范大学/p>
+        <div class="thumbnail" style="border: none">
+            <img src="img/01.jpg" style="height: 1000px" alt="...">
+            <div class="caption" style="font-size: 12px">
+                <h4>华中师范大学学生社团联合会之新生礼包派送</h4>
+                <p style="font-size: 14px">活动时间;2016-07-12 09:00 至2016-09-11 00</p>
+                <p style="font-size: 14px">活动</p>
+                <p style="font-size: 14px">活动地点：华中师范大学</p>
             </div>
         </div>
     </div>
 </div>
+</div>
 <!--<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>-->
 <!--<div class="well">-->
 <!--</div>-->
-<div class="container_1">
-    <h1><span class="span">|</span>发布者</h1>
+<div class="container" style="width: 100%;border: 1px solid gray">
+    <h1 style="font-size: 20px"><span class="span">|</span>发布者</h1>
 </div>
 
-<div class="container">
-
-
-    <div >
-    <img class="head_portrait" src="img/杨洋.jpg" alt="" style="margin-top: 20px"/>
-    <span class="sName">&nbsp;&nbsp;&nbsp;杨洋&nbsp;&nbsp;LV.4</span>
+<div >
+    <div>
+        <img class=" img-circle " src="img/01.jpg" alt=""  style="width:20%;margin-top: 20px;margin-left: 20px"/>
+        <span style="font-size: 20px">&nbsp;&nbsp;&nbsp;杨洋&nbsp;&nbsp;LV.4</span>
     </div>
     <hr class="divider">
     <div class="container_3">
-    <h4><span class="span_a">&nbsp;&nbsp;来至：</span><span>华中师范大学社团联合会</span></h4>
+        <h4><span class="span_a">&nbsp;&nbsp;来至：</span><span>华中师范大学社团联合会</span></h4>
     </div>
 </div>
 
@@ -197,22 +126,20 @@
 <!--<div class="well">-->
 <!--</div>-->
 
-<div class="container">
-    <h1><span class="span">|</span>活动内容</h1>
+<div class="container"style="width: 100% ;border: 1px solid gray">
+    <h1 style="font-size: 20px"><span class="span">|</span>活动内容</h1>
 </div>
-<div class="container">
-    <p style="font-size: 20px">天地所蕴含的道，分为十大天道、八十一大道、十万八千小道。
+<div class="container" style="width: 98%">
+    <p style="font-size: 14px;line-height: 1.428">天地所蕴含的道，分为十大天道、八十一大道、十万八千小道。
         十大祖神，都是生而就掌握了天道的存在，分别是生而领悟混沌之道的盘古，生而领悟生命之道的女娲，
         生而领悟毁灭之道的伏羲，生而领悟阴之天道的凤凰，
         生而领悟阳之天道的祖龙，至于其他五行天道，分别是火神祝融、水神共工、金神蓐收、木神句芒、土神垕土。
         其中最强者，便是掌控混沌之道的盘古。盘古虽说是厉害了得，不过冥冥中仍受命运掌控。他生来的命运，就是开天。盘古是最后一个孕育而出，
         他一出，便手持盘古斧，开天辟地，甚至不惜燃烧生命，最终身死道消，却也创出了恢弘巨大的上古盘古世界。
-        上古盘古世界中也开始孕育出很多生命，这些都是天地孕育，其中强者可达天神境界，弱者则为先天层次。天地诞生一切精彩无比，
-        从混沌中而来的众多仙魔对一切充满好奇而无规矩，是故或为占地以为首领，或是隐居一方闲云野鹤
-        。随着诸多生命诞生，上古世界也变得愈加精彩。像三寿乃至几位祖神甚至都成立了一个个组织，划定地盘，占山为王，甚至为了地盘不惜生死厮杀。[2] </p>
-    <div style="margin-left: 600px;font-size: 20px">查看图文详情></div>
+        。随着诸多生命诞生，上古世界也变得愈加精彩。像三寿乃至几位祖神甚至都成立了一个个组织，划定地盘，占山为王，甚至为了地盘不惜生死厮杀。 </p>
+    <div style="margin-left: 620px;font-size: 14px">查看图文详情></div>
 </div>
-<div class="container">
+<div class="container"style="width: 100% ;border: 1px solid gray">
     <h1><span class="span">|</span>想去的人</h1>
 </div>
 
@@ -220,7 +147,7 @@
 
     <div class=" tab-pane active">
         <div class="col-sm-3  col-md-3">
-            <img  class="head_portrait" src="img/杨洋.jpg" alt=""/>
+            <img  class="head_portrait img-circle" src="img/杨洋.jpg" alt=""/>
         </div>
         <div class="col-sm-5 col-md-5" style="border:1px solid #ffff00">
             <p>杨洋</p>
@@ -232,16 +159,32 @@
         </div>
     </div>
     <div >
-        <img class="head_portrait" src="img/杨洋.jpg" alt="" style="margin-top: 5px"/>
+        <img class="head_portrait img-circle" src="img/杨洋.jpg" alt="" style="margin-top: 5px"/>
         <span class="sName">&nbsp;&nbsp;&nbsp;杨洋&nbsp;&nbsp;LV.4</span>
     </div>
 </div>
-<br/><br/><br/><br/><br/><br/><br/><br/>
-<nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-    <img class="want" src="img/爱心.jpg" alt=""/>
-    <span>想去</span>
-</nav>
-<script src="../js/jquery-3.1.0.min.js"></script>
-<script src="../js/bootstrap.js"></script>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+
+
+<!--底部导航-->
+<!--hidden-md hidden-隐藏-->
+<div id="botnavbar" class="navbar navbar-default navbar-fixed-bottom nav nav-tabs xmgcNavBar   botnavbar" style="height:6rem;z-index:10;padding:0;box-shadow:0 0 2rem #CCC">
+    <li role="presentation" style="width:100%;text-align:center;margin:0;border-right:1px solid #DDD;">
+        <a style="height:6rem;border-radius:0" href="http://m.xmgc360.com/' + mod.path + '">
+            <!--<div class="fa fa-home" style="font-size:3rem"></div>-->
+
+            <div style="font-size:2rem;color: #00bfa5;margin-top: 10px">
+                <img src="..." alt=""/>
+                想去</div>
+        </a>
+    </li>
+</div>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
